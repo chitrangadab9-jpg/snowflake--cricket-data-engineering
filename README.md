@@ -15,6 +15,7 @@ An end-to-end data engineering project built on real IPL (Indian Premier League)
 - [Automation — Streams and Tasks](#automation--streams-and-tasks)
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
+- [Data Source](##Data-Source)
 
 ---
 
@@ -307,3 +308,14 @@ Run the SQL files in this exact order inside Snowflake:
 - **Snowpipe** — event-driven ingestion triggered by S3 object creation
 - **Star schema** — surrogate keys, foreign key constraints, fact constellation pattern
 - **Anti-join insert pattern** — idempotent inserts that never create duplicates
+
+## Data Source
+
+Raw match data sourced from **[Cricsheet](https://cricsheet.org)** — the most widely 
+used open source cricket data archive in the world.
+
+- **Format:** JSON, one file per match
+- **Match type:** Men's One Day Internationals (ODI)
+- **Direct download:** https://cricsheet.org/downloads/odis_json.zip
+- **Full dataset:** 2,538 Men's ODI matches
+- **Matches used in this project:** 33 JSON files as a sample subset
