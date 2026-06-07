@@ -106,9 +106,9 @@ Both paths load into the same raw table, so all downstream transformations work 
 ### LAND schema
 The entry point. No data transformation happens here — this layer only defines the infrastructure for receiving files.
 
-- `my_json_format` — file format object telling Snowflake how to parse the JSON (strip outer array, handle nulls)
-- `my_stg` — internal named stage where files are uploaded manually via Snowflake UI or SnowSQL
-- `my_s3_cricket_stage` — external stage pointing to the S3 bucket via Storage Integration
+- `my_json_format` - file format object telling Snowflake how to parse the JSON (strip outer array, handle nulls)
+- `my_stg` - internal named stage where files are uploaded manually via Snowflake UI or SnowSQL
+- `my_s3_cricket_stage` - external stage pointing to the S3 bucket via Storage Integration
 
 ### RAW schema
 Data is loaded exactly as it arrives — no flattening, no type casting. The three root keys of each JSON file (`meta`, `info`, `innings`) are extracted into separate columns but kept as Snowflake semi-structured types (OBJECT, VARIANT, ARRAY).
