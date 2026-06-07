@@ -35,7 +35,7 @@ Both paths load into the same raw table, so all downstream transformations work 
 
 | Tool | Purpose |
 |------|---------|
-| Snowflake | Cloud data warehouse — all processing and storage |
+| Snowflake | Cloud data warehouse - all processing and storage |
 | SQL | All transformations written in Snowflake SQL |
 | AWS S3 | External storage for the Snowpipe ingestion path |
 | AWS IAM | Role-based access control for Snowflake ↔ S3 trust |
