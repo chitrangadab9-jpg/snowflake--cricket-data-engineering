@@ -202,7 +202,7 @@ Both paths load into the same `match_raw_tbl`. All downstream processing is iden
 
 ---
 
-## Automation — Streams and Tasks
+## Automation - Streams and Tasks
 
 The entire pipeline from raw → clean → consumption runs automatically via a chained task tree.
 
