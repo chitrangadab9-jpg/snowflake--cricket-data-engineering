@@ -318,4 +318,3 @@ used open source cricket data archive in the world.
 - **Match type:** Men's One Day Internationals (ODI)
 - **Direct download:** https://cricsheet.org/downloads/odis_json.zip
 - **Full dataset:** 2,538 Men's ODI matches
-- **Matches used in this project:** 33 JSON files as a sample subset
