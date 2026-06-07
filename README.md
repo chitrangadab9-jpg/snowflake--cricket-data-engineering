@@ -51,7 +51,7 @@ Both paths load into the same raw table, so all downstream transformations work 
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                      DATA SOURCES                       │
-│              IPL match JSON files (48 matches)          │
+│                   ODI match JSON files      
 └───────────────┬─────────────────────┬───────────────────┘
                 │                     │
                 ▼                     ▼
