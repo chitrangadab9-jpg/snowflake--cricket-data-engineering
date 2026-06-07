@@ -298,16 +298,16 @@ Run the SQL files in this exact order inside Snowflake:
 
 ## Key Concepts Demonstrated
 
-- **Layered architecture** — LAND → RAW → CLEAN → CONSUMPTION separation of concerns
-- **Semi-structured data** — JSON parsing using `VARIANT`, `OBJECT`, `ARRAY` and the `:` notation
-- **LATERAL FLATTEN** — unpacking nested arrays (players, innings, overs, deliveries) into rows
-- **COPY INTO** — bulk loading with automatic duplicate detection via file hash
-- **Streams** — append-only change tracking for incremental processing
-- **Tasks** — chained scheduled automation with conditional execution
-- **Storage Integration** — secure Snowflake ↔ AWS trust without hardcoded credentials
-- **Snowpipe** — event-driven ingestion triggered by S3 object creation
-- **Star schema** — surrogate keys, foreign key constraints, fact constellation pattern
-- **Anti-join insert pattern** — idempotent inserts that never create duplicates
+- **Layered architecture** - LAND → RAW → CLEAN → CONSUMPTION separation of concerns
+- **Semi-structured data** - JSON parsing using `VARIANT`, `OBJECT`, `ARRAY` and the `:` notation
+- **LATERAL FLATTEN** - unpacking nested arrays (players, innings, overs, deliveries) into rows
+- **COPY INTO** - bulk loading with automatic duplicate detection via file hash
+- **Streams** - append-only change tracking for incremental processing
+- **Tasks** - chained scheduled automation with conditional execution
+- **Storage Integration** - secure Snowflake ↔ AWS trust without hardcoded credentials
+- **Snowpipe** - event-driven ingestion triggered by S3 object creation
+- **Star schema** - surrogate keys, foreign key constraints, fact constellation pattern
+- **Anti-join insert pattern** - idempotent inserts that never create duplicates
 
 ## Data Source
 
